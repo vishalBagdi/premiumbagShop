@@ -29,3 +29,7 @@ module.exports.registerUser = async function (req, res) {
     res.send(err.message);
   }
 }
+
+module.exports.loginUser = async function (req, res) {
+  
+}
